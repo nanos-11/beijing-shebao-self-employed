@@ -32,6 +32,30 @@
 - **全程零跑线下**：居住证确认单用「京通」小程序线上生成（手持拍照、人脸清晰）。
 - 高频坑：税务报道必须先做「两证整合个体工商户信息确认」再登录；社保单位登记等 1–2 天共享信息同步可免传要件；无对公账户走「银行短凭证」+ 手机银行（建行搜「实时缴税」）。
 
+## 安装（WorkBuddy）
+
+### 方式一：对 Agent 说一句话（推荐）
+
+在 WorkBuddy 对话里直接发：
+
+> 帮我安装技能 https://github.com/nanos-11/beijing-shebao-self-employed
+
+Agent 会自动执行等效操作，把仓库克隆到用户级技能目录：
+
+```bash
+git clone https://github.com/nanos-11/beijing-shebao-self-employed.git ~/.workbuddy/skills/beijing-shebao-self-employed
+```
+
+安装后新会话生效。以后想更新到最新版，同样一句话：
+
+> 更新技能 beijing-shebao-self-employed
+
+Agent 会执行 `git -C ~/.workbuddy/skills/beijing-shebao-self-employed pull` 完成更新。
+
+### 方式二：手动安装
+
+下载本仓库 zip 并解压，把整个文件夹复制到 `~/.workbuddy/skills/beijing-shebao-self-employed/`（用户级）或项目 `.workbuddy/skills/`（项目级）；或在 WorkBuddy「专家·技能·连接器 → 技能 → 添加技能」上传 zip 导入。
+
 ## License
 
 MIT
