@@ -1,7 +1,11 @@
 ---
 name: beijing-shebao-self-employed
+version: 1.0.0
+display_name: 非京籍个体户缴纳社保
+display_name_en: Beijing Social Insurance for Non-Local Self-Employed
 description: 非京籍人员通过注册北京个体工商户、以用人单位身份为自己缴纳职工社保（五险一金）的分阶段办理指引。当用户咨询「非京籍社保」「个体户缴社保」「北京灵活就业社保怎么办」「北京社保开户、增员、申报缴费」「每月要交多少钱、缴费基数」「公积金开户、公积金缴款」「工资薪金个税」「经营所得申报、工商年报」，或询问某个具体办理步骤、平台入口、登录凭证、报错处理，或要求「一步一步带着办、手把手办理、从零开始办」时使用。也适用于核对北京社保缴费金额、全年申报日历与合规红线。
-agent_created: true
+description_zh: 非京籍人员通过注册北京个体工商户、以用人单位身份为自己缴纳职工社保（五险一金）的分阶段办理指引。覆盖从准备网店与居住证材料、注册个体工商户取得单位身份，到打通社保、税务、医保四套系统，再到每月申报缴费（含公积金缴款）与季度年度合规申报的完整流程。支持手把手模式：一次只给一步，按「打开哪/做什么/完成标志」三段式带用户办完 12 个步骤。含 2026 年最新缴费金额口径、平台登录清单、高频报错速查与实测修订记录。
+description_en: Step-by-step guide for non-local residents in Beijing to pay employee social insurance by registering an individual business (getihu) and enrolling themselves as an employer. Covers material preparation, business license application via e-chuangtong, social insurance/tax/medical system setup, monthly declaration and payment, housing fund contribution, and quarterly/annual tax compliance. Includes hand-holding mode, 2026 fee benchmarks, platform login checklist, and verified troubleshooting notes.
 ---
 
 # 非京籍个体户缴纳社保
